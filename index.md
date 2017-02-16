@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Some thoughts about samping in the sciences
 
-You can use the [editor on GitHub](https://github.com/jlbouchot/jlbouchot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This page has just started because I had a bit of time on my hand while waiting for someone. I hope to update it soon again, and hopefully regularly, with some thoughts a new research ideas, analysis, thoughts about teaching, examples for using some of my code, etc ... 
 
 ### Markdown
 
