@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Jean-Luc Bouchot's Homepage">
+    <meta name="author" content="Jean-Luc Bouchot">
+
+    <title>Jean-Luc Bouchot, Ph.D. -- Teaching</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
 <body oncontextmenu="return false;">
 
-<video width="320" height="240" controls>
-  <source src="vids/Optim21_02_GD_Intro.mp4" type="video/mp4">
-  <source src="vids/Optim21_02_GD_Intro.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">@</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="publication.html">Publication</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="research.html">Research</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form" role="search" action="http://www.google.com/search"
+                          method="GET"
+                          target="_blank">
+                        <div class="form-group">
+                            <input type="text" name="q" class="form-control" id="content"  placeholder="Keyword">
+                        </div>
+                        <button type="submit" name="sitesearch"
+                                value="jlbouchot.github.io"  class="btn btn-default">Search</button>
+                    </form>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+    </nav>
+	
+    <!-- Begin page content -->
+    <div class="container" >
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h2> Pre-recordings of lectures </h2></div> <!-- End of panel heading -->
+				<div class="panel-body">
+				This is our first pre-recorded lecture about the basics of gradient descent and iterative algorithms 
+				
+				<video width="640" height="480" controls>
+				<source src="vids/Optim21_02_GD_Intro.mp4" type="video/mp4">
+				<source src="vids/Optim21_02_GD_Intro.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video>
+				</div> <!-- End of current video block -->
+			</div>
+			
+			<div class="panel-heading">
+                <h2> Recordings of synchronous sessions </h2></div> <!-- End of panel heading -->
+				<div class="panel-body">
+				This is our first recorded problem solving session reviewing conjugation and convexity
+				
+				<video width="640" height="480" controls>
+				<source src="vids/Optim21e_01_Conjugate.mp4" type="video/mp4">
+				<source src="vids/Optim21e_01_Conjugate.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video>
+				</div> <!-- End of current video block -->
+			</div>
+			
+		</div>
+	</div>
 
 </body>
 </html>
